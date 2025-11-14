@@ -1,0 +1,62 @@
+body {
+    /* Cor de fundo escura */
+    background-color: #222222;
+    color: #ffffff; /* Texto branco */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: #333333; /* Fundo do container ligeiramente mais claro */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Espaço entre as caixas de tempo */
+}
+
+.time-box {
+    text-align: center;
+    /* Para a borda e o fundo visíveis na imagem */
+    /* background-color: #444; */ 
+    padding: 10px 20px;
+}
+
+.number {
+    font-size: 4em; /* Números grandes */
+    font-weight: bold;
+    display: block;
+    line-height: 1; /* Para evitar espaçamento extra */
+}
+
+.label {
+    font-size: 1em;
+    opacity: 0.7; /* Texto da label ligeiramente mais claro */
+    text-transform: uppercase;
+}
